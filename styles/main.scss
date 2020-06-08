@@ -56,6 +56,8 @@
                 background-color: #2e2e2e;
                 color: #eca707;
                 border: 0;
+              }.btn-learn:hover {
+                  background-color: #3d3d3d;
               }
             }
         }
@@ -166,6 +168,8 @@
             width: 284px;
             height: 92px;
             border: solid 1px #8b8b8b;
+        } .btn-more:hover {
+            background-color: #3d3d3d;
         }
     }
     .forthSection{
@@ -203,6 +207,8 @@
                 width: 284px;
                 height: 92px;
                 background-color: #131313;
+            } .btn-shop:hover{
+                background-color: #3d3d3d;
             }
         }
         .right {
@@ -334,6 +340,8 @@
                 height: 80px;
                 text-align: center;
                 background-color: #0d0d0d;
+            } .btn-send:hover{
+                background-color: #3d3d3d;
             }
         }
     }
