@@ -2,7 +2,7 @@
 const withSass = require('@zeit/next-sass');
 // const withImages = require('next-images');
 const withCSS = require('@zeit/next-css')
-
+const withFonts = require('next-fonts');
 // module.exports = withPlugins([
 //     [withSass, {
 //         cssLoaderOptions: {
@@ -25,5 +25,5 @@ const withCSS = require('@zeit/next-css')
       })
       return config
     }
-  }))
+  })), withFonts();
   

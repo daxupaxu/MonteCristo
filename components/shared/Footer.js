@@ -49,7 +49,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="copyright">
-                <p>Bling Studio All rights reserved. </p>
+                <p>Dawid Dao Xuan All rights reserved. </p>
             </div>
 
         </footer>
