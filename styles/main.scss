@@ -1,0 +1,340 @@
+@font-face {
+    font-family: 'Simplifica';
+    src: url('/home/dawid/Desktop/monte/front/fonts/simplifica.woff2');
+}
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100vw;
+}
+.main{
+    background-color: #000000;
+    width: 100vw;
+    color: #ffffff;
+    .firstSection{
+        position: relative;
+        z-index: 5;
+        font-family: 'Simplifica';
+        width: 100vw;
+        height: 90vh;
+        display: flex;
+        .left{
+            display: flex;
+            align-items: center;
+            width: 50%;
+            height: 100%;
+            img {
+                width: 80%;
+            }
+        }
+        .right {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 50%;
+            text-align: center;
+            h1{
+                font-size: 100px;
+                font-weight: 100;
+                width: 100%;
+            }
+            .first-section-paragraph{
+                width: 100%;
+                font-size: 50px;
+                margin-top: 2%;
+                margin-bottom: 2%;
+            }
+            .btn-learn{
+                font-family: 'Simplifica';
+                font-size: 40px;
+                letter-spacing: 4.2px;
+                width: 290px;
+                height: 63px;
+                background-color: #2e2e2e;
+                color: #eca707;
+                border: 0;
+              }
+            }
+        }
+        .background-1{
+            position: absolute;
+            z-index: 0;
+            width: 2628px;
+            top: 1000px;
+            left: -395px;
+            height: 1930px;
+            background: #131313;
+            transform: rotate(-16deg);
+        }
+        .background-2{
+            position: absolute;
+            margin-top: 20%;
+            z-index: 1;
+            left: -200px;
+            width: 2574px;
+            height: 938px;
+            background-color: #0d0d0d;
+            transform: rotate(-166deg);
+        }
+
+    .secondSection{
+        position: relative;
+        z-index: 5;
+        width: 100vw;
+        height: 95vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .left {
+            width: 35%;
+            text-align: left;
+            p{
+                font-size: 70px;
+                margin-bottom: 67px;
+            }
+            article{
+                width: 100%;
+                font-size: 27px;
+                color: #cfcdcd;
+                font-family: 'Roboto';
+                font-weight: 100;
+            }
+        }
+        .right {
+            margin-left: 15%;
+            width: 30vw;
+            img {
+                width: 28.2vw;
+                height: 55.7%;
+            }
+        }
+    }
+    .thirdSection{
+        position: relative;
+        z-index: 5;
+        width: 100vw;
+        height: 95vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .top-holder{
+            font-family: 'Simplifica';
+            text-align: center;
+            width: 100%;
+            height: 2   0%;
+
+            h3{
+                font-size: 75px;
+                font-weight: 100;
+            }
+            p {
+                font-size: 50px;
+            }
+        }
+
+        .bottom-holder{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 60%;
+            .holder-3{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 33vw;
+                height: 33vh;
+                img{
+                    height: 100%;
+                    width: 60%;
+                }
+            }
+        }
+        .btn-more{
+            font-family: 'Simplifica';
+            font-size: 50px;
+            text-align: center;
+            color: #eca707;
+            background-color: #0d0d0d;
+            border-radius: 10px;
+            width: 284px;
+            height: 92px;
+            border: solid 1px #8b8b8b;
+        }
+    }
+    .forthSection{
+        position: relative;
+        z-index: 0;
+        font-family: 'Simplifica';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 80vh;
+        .left{
+            width: 45vw;
+            text-align: center;
+            font-size: 45px;
+            color: #c4c4c4;
+            h4{
+                width: 100%;
+                color: #ffffff;
+                font-size: 85px;
+                letter-spacing: 8.93px;
+                font-weight: 100;
+            }
+            p{
+                width: 100%;
+            }
+            .btn-shop{
+                margin-top: 50px;
+                font-family: 'Simplifica';
+                border: solid 1px #8b8b8b;
+                border-radius: 10px;
+                color: #eca707;
+                text-align: center;
+                font-size: 50px;
+                width: 284px;
+                height: 92px;
+                background-color: #131313;
+            }
+        }
+        .right {
+            width: 55vw;
+            img{
+                margin-left: 10%;
+                width: 85%;
+            }
+        }
+    }
+    .background-3{
+        position: absolute;
+        width: 2194px;
+        height: 780px;
+        transform: rotate(-16deg);
+        background-color: #131313;
+    }
+    .background-4{
+        position: absolute;
+        z-index: 0;
+        left: -200px;
+        width: 2140px;
+        height: 1080px;
+        background-color: #0d0d0d;
+        transform: rotate(-166deg);
+    }
+    .fifthSection {
+        position: relative;
+        z-index: 5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 75vh;
+        .left{
+            width: 50vw;
+            img{
+            margin-left: 7%;
+            width: 85%;
+            }
+        }
+        .right{
+            font-family: 'Roboto';
+            width: 50vw;
+            font-weight: 100;
+            .description-holder{
+                margin-left: 7%;
+                margin-top: 20%;
+                width: 32vw;
+                line-height: 1.3;
+                letter-spacing: 1.35px;
+                color: gray;
+                text-align: left;
+                font-weight: 100;
+                p{
+                    width: 100%;
+                }
+            }
+            h5{
+                margin-left: 7%;
+                width: 100%;
+                font-family: 'Simplifica';
+                font-size: 85px;
+                color: #ffffff;
+                text-align: left;
+                font-weight: 100;
+
+            }
+        }
+    }
+    .contactForm{
+        margin-top: 5%;
+        position: relative;
+        z-index: 5;
+        width: 100vw;
+        height: 600px;
+        background-color: #0d0d0d;
+        h6{
+            font-weight: 100;
+            margin-top: 5%;
+            margin-bottom: 10%;
+            width: 100%;
+            font-family: 'Simplifica';
+            font-size: 55px;
+            text-align: center;
+        }
+        .form-holder{
+            display: flex;
+            justify-content: center;
+            .lemail-holder{
+                margin-right: 15%;
+                width: 367px;
+                border-bottom: 1px solid #ffffff;
+            }
+            .lemail{
+                color: #a8a4a4;
+                font-family: "Simplifica";
+                font-size: 25px;
+                text-align: left;
+                width: 100%;
+                border: 0px;
+                background-color: #0d0d0d;
+            }
+            .lname-holder{
+                width: 367px;
+                border-bottom: 1px solid #ffffff;
+            }
+            .lname{
+                color: #a8a4a4;
+                font-family: "Simplifica";
+                font-size: 25px;
+                text-align: left;
+                width: 100%;
+                border: 0px;
+                background-color: #0d0d0d;
+            }
+        }
+        .btn-holder{
+            display: flex;
+            justify-content: center;
+            .btn-send{
+                margin-top: 5%;
+                font-family: 'Simplifica';
+                font-size: 50px;
+                color: #eca707;
+                border-radius: 10px;
+                border: solid 1px #8b8b8b;
+                width: 247px;
+                height: 80px;
+                text-align: center;
+                background-color: #0d0d0d;
+            }
+        }
+    }
+}
