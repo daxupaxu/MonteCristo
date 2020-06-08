@@ -76,7 +76,7 @@ footer {
 
 @font-face {
   font-family: 'Simplifica';
-  src: url("/home/dawid/Desktop/monte/front/fonts/simplifica.woff2"); }
+  src: url([object Module]); }
 
 * {
   margin: 0;
@@ -250,7 +250,7 @@ footer {
         height: 92px;
         background-color: #131313; }
     .main .forthSection .right {
-      width: 55vw; }
+      width: 45vw; }
       .main .forthSection .right img {
         margin-left: 10%;
         width: 85%; }

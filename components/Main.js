@@ -8,13 +8,11 @@ import '../styles/main.scss';
     return (
         <div className="main">
             <Head>
-                <title>MonteCristo</title>
-                <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"></link>
-                
+                <title>MonteCristo</title>              
             </Head>
             <div className="firstSection">
                 <div className="left">
-                <img src='http://localhost:1337/uploads/760f6e17bdd641d6ac0c1d3f98c9bfcb.jpg' alt="perfume"/>
+                <img src='http://localhost:1337/uploads/small_black_background_fcd92b5362.jpeg?784173.3550000027' alt="perfume"/>
                 </div>
                 <div className="right">
                     <h1>{props[0].Header}</h1>
@@ -30,7 +28,7 @@ import '../styles/main.scss';
                     <article>{props[1].Description}</article>
                 </div>
                 <div className="right">
-                    <img src="http://localhost:1337/uploads/5fa9ba59fec145e7b8e7a11b799eb0b5.png" alt="perfume2"/>
+                    <img src="http://localhost:1337/uploads/small_e92dacf9e83cb8de14d3d726b45bf318_f08b499ae6.png?885142.5450000025" alt="perfume2"/>
                 </div>
             </div>
             <div className="thirdSection">
@@ -40,13 +38,13 @@ import '../styles/main.scss';
                 </div>
                 <div className="bottom-holder">
                     <div className="holder-3">
-                        <img src="http://localhost:1337/uploads/39b974bea6224a3981323bf3101a0648.jpg" alt="perfumex"/>
+                        <img src="http://localhost:1337/uploads/unnamed_d1fdadb80c.jpeg?909589.5100000016" alt="perfumex"/>
                     </div>
                     <div className="holder-3">
-                        <img src="http://localhost:1337/uploads/aed2de88508d4942af365a605f338ab2.jpg" alt="perfumey"/>
+                        <img src="http://localhost:1337/uploads/Black_Background_Product_Photography_18_624x468_520d9ce10d.jpeg?932766.7000000002" alt="perfumey"/>
                     </div>
                     <div className="holder-3">
-                        <img src="http://localhost:1337/uploads/4093b60809324a5c9529917409133291.jpg" alt="perfumez"/>
+                        <img src="http://localhost:1337/uploads/9b608261f00cabc120dbd9764ead3535_90eb913dfa.jpeg?942506.4200000016" alt="perfumez"/>
                     </div>
                 </div>
                 <button className="btn-more">MORE</button>
@@ -58,14 +56,14 @@ import '../styles/main.scss';
                     <button className="btn-shop">SHOP NOW</button>
                 </div>
                 <div className="right">
-                    <img src="http://localhost:1337/uploads/7cef529754534f8584709df3194f77c2.jpg" alt="another"/>
+                    <img src="http://localhost:1337/uploads/small_mille_centum_parfums_montecristo_fragrances_01_555bd3a3ea.jpeg?955802.5799999996" alt="another"/>
                 </div>
             </div>
             <div className="background-3"></div>
             <div className="background-4"></div>
             <div className="fifthSection">
                 <div className="left">
-                    <img src="http://localhost:1337/uploads/77e2e8a164cd44a89e9a0697839c8d84.jpg" alt="another"/>
+                    <img src="http://localhost:1337/uploads/small_parfymfotografering_mot_mork_bakgrund_2_9d0b5901d8.jpeg?972335.69" alt="another"/>
                 </div>
                 <div className="right">
                     <h5>{props[4].Header}</h5>
