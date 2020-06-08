@@ -5,8 +5,6 @@ import fetch from 'isomorphic-unfetch';
 
 const index = props => {
 
-    console.log(props.data);
-
     return (
         <BaseLayout>
             <Main  props={props.data}/>
